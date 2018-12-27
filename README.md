@@ -1,38 +1,38 @@
-# STM32学习笔记
 
-#### 介紹
-{**以下是碼雲平臺說明，您可以替換此簡介**
-碼雲是開源中國推出的基於 Git 的代碼托管平臺（同時支持 SVN）。專為開發者提供穩定、高效、安全的雲端軟件開發協作平臺
-無論是個人、團隊、或是企業，都能夠用碼雲實現代碼托管、項目管理、協作開發。企業項目請看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+# STM32F103学习笔记
 
-#### 架構
-架構說明
+STM32F103基本外设的学习笔记，不定期更新。
+![](https://wcc-blog.oss-cn-beijing.aliyuncs.com/img/stm32-img.jpg)
 
-#### 安裝教程
+### 开发环境
 
-1. xxxx
-2. xxxx
-3. xxxx
+软件环境：Keil v5.16a
 
-#### 使用說明
+主控芯片：STM32F103RET6，Flash 512KB，RAM 64KB，LQFP64。
 
-1. xxxx
-2. xxxx
-3. xxxx
+调试器：Jlink V9
 
-#### 參與貢獻
+原理图：[v1.0.pdf](https://wcc-blog.oss-cn-beijing.aliyuncs.com/BlogFile/v1.0.pdf)
 
-1. Fork 本倉庫
-2. 新建 Feat_xxx 分支
-3. 提交代碼
-4. 新建 Pull Request
+---
 
+### 2018-12-27 建立基于STM32F103RET6的工程模板
 
-#### 碼雲特技
+- 包含基本文件，内核文件，启动文件等
+- 包含基本驱动库，sys，uart，delay，usmart
+- 包含LED驱动、蜂鸣器驱动、按键驱动
+- 添加批处理文件，可以在编译完成后自动删除垃圾文件
+- 支持软件仿真，参数已经设置好
+- 添加Astyle批处理命令，双击可以格式化当前目录下的所有源文件和头文件
 
-1. 使用 Readme\_XXX.md 來支持不同的語言，例如 Readme\_en.md, Readme\_zh.md
-2. 碼雲官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 妳可以 [https://gitee.com/explore](https://gitee.com/explore) 這個地址來了解碼雲上的優秀開源項目
-4. [GVP](https://gitee.com/gvp) 全稱是碼雲最有價值開源項目，是碼雲綜合評定出的優秀開源項目
-5. 碼雲官方提供的使用手冊 [https://gitee.com/help](https://gitee.com/help)
-6. 碼雲封面人物是壹檔用來展示碼雲會員風采的欄目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+------
+
+我的个人博客：[我的博客](http://www.wangchaochao.top/)
+
+我的公众号：
+
+![](https://img2018.cnblogs.com/blog/1124009/201810/1124009-20181029203947824-323305888.jpg)
+
+不定期更新电子电路、嵌入式方面的个人学习笔记和技术总结，欢迎互相学习交流！
+
+------
